@@ -70,18 +70,28 @@ namespace BusinessLogicLayer
         {
             Student student = new Student
             {
-                sid= sid,
+                sid = sid,
                 sname = sname,
                 scontact = scontact,
                 saddress = saddress
             };
             student.Register();
         }
-        public bool SelectStudent(int sid,int spassword)
+        public bool SelectStudent(int sid, string spassword)
         {
             DAL d = new DAL();
             d.OpenConnection();
-            d.LoadSpParameters("_spselectstudentinfo", sid,spassword);
+            d.LoadSpParameters("_spselectstudentinfo", sid, spassword);
+            SqlDataReader reader = d.GetDataReader();
+            bool loginSuccessful = reader.Read();
+            d.CloseConnection();
+            return loginSuccessful;
+        }
+        public bool SelectTeacher(int tid, string tpassword)
+        {
+            DAL d = new DAL();
+            d.OpenConnection();
+            d.LoadSpParameters("_spselectteacherinfo", tid, tpassword);
             SqlDataReader reader = d.GetDataReader();
             bool loginSuccessful = reader.Read();
             d.CloseConnection();

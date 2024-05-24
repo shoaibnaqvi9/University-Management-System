@@ -21,8 +21,8 @@ namespace Project
         {
             try
             {
-                int sid = int.Parse(lblID.Text);
-                int spassword = int.Parse(lblPassword.Text);
+                int sid = int.Parse(txtID.Text);
+                string spassword = txtPassword.Text;
                 BLL b = new BLL();
                 bool loginSuccessful = b.SelectStudent(sid, spassword);
                 if (loginSuccessful)
@@ -34,7 +34,7 @@ namespace Project
                 }
                 else
                 {
-                    MessageBox.Show("Incorrect Student ID");
+                    MessageBox.Show("Incorrect Student ID or Password");
                 }
             }
             catch (FormatException ex)
@@ -45,7 +45,6 @@ namespace Project
             {
                 MessageBox.Show("An error occurred: " + ex.Message);
             }
-
         }
         private void patient_login_Load(object sender, EventArgs e)
         {
