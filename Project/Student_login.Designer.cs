@@ -29,32 +29,34 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Student_login));
-            this.lblLogin = new System.Windows.Forms.Label();
-            this.txtLogin = new System.Windows.Forms.TextBox();
+            this.lblID = new System.Windows.Forms.Label();
+            this.txtID = new System.Windows.Forms.TextBox();
             this.btnBack = new System.Windows.Forms.Button();
             this.btnLogin = new System.Windows.Forms.Button();
             this.lblPLF = new System.Windows.Forms.Label();
+            this.lblPassword = new System.Windows.Forms.Label();
+            this.txtPassword = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
-            // lblLogin
+            // lblID
             // 
-            this.lblLogin.AutoSize = true;
-            this.lblLogin.BackColor = System.Drawing.Color.Transparent;
-            this.lblLogin.Font = new System.Drawing.Font("Bookman Old Style", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblLogin.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.lblLogin.Location = new System.Drawing.Point(64, 125);
-            this.lblLogin.Name = "lblLogin";
-            this.lblLogin.Size = new System.Drawing.Size(92, 18);
-            this.lblLogin.TabIndex = 42;
-            this.lblLogin.Text = "Student ID";
+            this.lblID.AutoSize = true;
+            this.lblID.BackColor = System.Drawing.SystemColors.Desktop;
+            this.lblID.Font = new System.Drawing.Font("Bookman Old Style", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblID.ForeColor = System.Drawing.SystemColors.Control;
+            this.lblID.Location = new System.Drawing.Point(45, 103);
+            this.lblID.Name = "lblID";
+            this.lblID.Size = new System.Drawing.Size(92, 18);
+            this.lblID.TabIndex = 42;
+            this.lblID.Text = "Student ID";
             // 
-            // txtLogin
+            // txtID
             // 
-            this.txtLogin.Font = new System.Drawing.Font("Bookman Old Style", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtLogin.Location = new System.Drawing.Point(205, 122);
-            this.txtLogin.Name = "txtLogin";
-            this.txtLogin.Size = new System.Drawing.Size(172, 23);
-            this.txtLogin.TabIndex = 41;
+            this.txtID.Font = new System.Drawing.Font("Bookman Old Style", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtID.Location = new System.Drawing.Point(207, 100);
+            this.txtID.Name = "txtID";
+            this.txtID.Size = new System.Drawing.Size(172, 23);
+            this.txtID.TabIndex = 41;
             // 
             // btnBack
             // 
@@ -85,14 +87,34 @@
             // lblPLF
             // 
             this.lblPLF.AutoSize = true;
-            this.lblPLF.BackColor = System.Drawing.Color.Transparent;
+            this.lblPLF.BackColor = System.Drawing.SystemColors.Desktop;
             this.lblPLF.Font = new System.Drawing.Font("Bookman Old Style", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPLF.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.lblPLF.Location = new System.Drawing.Point(191, 15);
+            this.lblPLF.ForeColor = System.Drawing.SystemColors.Control;
+            this.lblPLF.Location = new System.Drawing.Point(192, 9);
             this.lblPLF.Name = "lblPLF";
-            this.lblPLF.Size = new System.Drawing.Size(81, 22);
+            this.lblPLF.Size = new System.Drawing.Size(75, 22);
             this.lblPLF.TabIndex = 45;
-            this.lblPLF.Text = "LOGIN ";
+            this.lblPLF.Text = "LOGIN";
+            // 
+            // lblPassword
+            // 
+            this.lblPassword.AutoSize = true;
+            this.lblPassword.BackColor = System.Drawing.SystemColors.Desktop;
+            this.lblPassword.Font = new System.Drawing.Font("Bookman Old Style", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPassword.ForeColor = System.Drawing.SystemColors.Control;
+            this.lblPassword.Location = new System.Drawing.Point(45, 139);
+            this.lblPassword.Name = "lblPassword";
+            this.lblPassword.Size = new System.Drawing.Size(81, 18);
+            this.lblPassword.TabIndex = 47;
+            this.lblPassword.Text = "Password";
+            // 
+            // txtPassword
+            // 
+            this.txtPassword.Font = new System.Drawing.Font("Bookman Old Style", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtPassword.Location = new System.Drawing.Point(207, 136);
+            this.txtPassword.Name = "txtPassword";
+            this.txtPassword.Size = new System.Drawing.Size(172, 23);
+            this.txtPassword.TabIndex = 46;
             // 
             // Student_login
             // 
@@ -101,11 +123,13 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(451, 301);
+            this.Controls.Add(this.lblPassword);
+            this.Controls.Add(this.txtPassword);
             this.Controls.Add(this.lblPLF);
             this.Controls.Add(this.btnBack);
             this.Controls.Add(this.btnLogin);
-            this.Controls.Add(this.lblLogin);
-            this.Controls.Add(this.txtLogin);
+            this.Controls.Add(this.lblID);
+            this.Controls.Add(this.txtID);
             this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "Student_login";
@@ -119,10 +143,12 @@
 
         #endregion
 
-        private System.Windows.Forms.Label lblLogin;
-        private System.Windows.Forms.TextBox txtLogin;
+        private System.Windows.Forms.Label lblID;
+        private System.Windows.Forms.TextBox txtID;
         private System.Windows.Forms.Button btnBack;
         private System.Windows.Forms.Button btnLogin;
         private System.Windows.Forms.Label lblPLF;
+        private System.Windows.Forms.Label lblPassword;
+        private System.Windows.Forms.TextBox txtPassword;
     }
 }

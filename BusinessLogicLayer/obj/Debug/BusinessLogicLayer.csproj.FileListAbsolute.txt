@@ -25,3 +25,12 @@ C:\Users\Shoaib Naqvi\Desktop\University Management System\BusinessLogicLayer\bi
 C:\Users\Shoaib Naqvi\Desktop\University Management System\BusinessLogicLayer\bin\Debug\DataAccessLayer.dll
 C:\Users\Shoaib Naqvi\Desktop\University Management System\BusinessLogicLayer\bin\Debug\DataAccessLayer.pdb
 C:\Users\Shoaib Naqvi\Desktop\University Management System\BusinessLogicLayer\obj\Debug\BusinessLogicLayer.csproj.CopyComplete
+C:\Users\Shoaib Naqvi\Documents\GitHub\University Management System\BusinessLogicLayer\obj\Debug\BusinessLogicLayer.csproj.AssemblyReference.cache
+C:\Users\Shoaib Naqvi\Documents\GitHub\University Management System\BusinessLogicLayer\obj\Debug\BusinessLogicLayer.csproj.CoreCompileInputs.cache
+C:\Users\Shoaib Naqvi\Documents\GitHub\University Management System\BusinessLogicLayer\obj\Debug\BusinessLogicLayer.dll
+C:\Users\Shoaib Naqvi\Documents\GitHub\University Management System\BusinessLogicLayer\obj\Debug\BusinessLogicLayer.pdb
+C:\Users\Shoaib Naqvi\Documents\GitHub\University Management System\BusinessLogicLayer\bin\Debug\BusinessLogicLayer.dll
+C:\Users\Shoaib Naqvi\Documents\GitHub\University Management System\BusinessLogicLayer\bin\Debug\BusinessLogicLayer.pdb
+C:\Users\Shoaib Naqvi\Documents\GitHub\University Management System\BusinessLogicLayer\bin\Debug\DataAccessLayer.dll
+C:\Users\Shoaib Naqvi\Documents\GitHub\University Management System\BusinessLogicLayer\bin\Debug\DataAccessLayer.pdb
+C:\Users\Shoaib Naqvi\Documents\GitHub\University Management System\BusinessLogicLayer\obj\Debug\BusinessLogicLayer.csproj.CopyComplete

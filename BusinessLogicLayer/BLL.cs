@@ -77,5 +77,15 @@ namespace BusinessLogicLayer
             };
             student.Register();
         }
+        public bool SelectStudent(int sid,int spassword)
+        {
+            DAL d = new DAL();
+            d.OpenConnection();
+            d.LoadSpParameters("_spselectstudentinfo", sid,spassword);
+            SqlDataReader reader = d.GetDataReader();
+            bool loginSuccessful = reader.Read();
+            d.CloseConnection();
+            return loginSuccessful;
+        }
     }
 }
