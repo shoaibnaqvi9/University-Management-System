@@ -16,3 +16,9 @@ C:\Users\Shoaib Naqvi\Desktop\University Management System\DataAccessLayer\obj\D
 C:\Users\Shoaib Naqvi\Desktop\University Management System\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.CoreCompileInputs.cache
 C:\Users\Shoaib Naqvi\Desktop\University Management System\DataAccessLayer\obj\Debug\DataAccessLayer.dll
 C:\Users\Shoaib Naqvi\Desktop\University Management System\DataAccessLayer\obj\Debug\DataAccessLayer.pdb
+C:\Users\Shoaib Naqvi\Documents\GitHub\University Management System\DataAccessLayer\bin\Debug\DataAccessLayer.dll
+C:\Users\Shoaib Naqvi\Documents\GitHub\University Management System\DataAccessLayer\bin\Debug\DataAccessLayer.pdb
+C:\Users\Shoaib Naqvi\Documents\GitHub\University Management System\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.AssemblyReference.cache
+C:\Users\Shoaib Naqvi\Documents\GitHub\University Management System\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\Shoaib Naqvi\Documents\GitHub\University Management System\DataAccessLayer\obj\Debug\DataAccessLayer.dll
+C:\Users\Shoaib Naqvi\Documents\GitHub\University Management System\DataAccessLayer\obj\Debug\DataAccessLayer.pdb
